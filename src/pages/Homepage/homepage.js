@@ -2,7 +2,7 @@ import React from 'react';
 import Styles from '../Homepage/homepage.module.scss'
 import HomepageDesign from '../../../assets/homepage-design.png'
 import Joshua from '../../../assets/josh.jpeg'
-
+import Design from '../../Components/Design/design'
 
 const Homepage = () => {
     return (
@@ -32,6 +32,8 @@ const Homepage = () => {
                     <img className={Styles.joshua__design} src={HomepageDesign} alt="homepage-design"/>
                 </div>
             </div>
+
+            <Design/>
         </div>
     )
 }
