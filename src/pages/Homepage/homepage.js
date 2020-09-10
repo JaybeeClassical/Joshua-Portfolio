@@ -3,6 +3,7 @@ import Styles from '../Homepage/homepage.module.scss'
 import HomepageDesign from '../../../assets/homepage-design.png'
 import Joshua from '../../../assets/josh.jpeg'
 import Design from '../../Components/Design/design'
+import Work from '../../Components/Work/work';
 
 const Homepage = () => {
     return (
@@ -34,6 +35,7 @@ const Homepage = () => {
             </div>
 
             <Design/>
+            <Work/>
         </div>
     )
 }

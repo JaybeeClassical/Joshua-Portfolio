@@ -10,8 +10,8 @@
 
 .homepage__flexBoxes{
     display: block;
-    margin: 0 auto;
-    align-items: center;
+    // margin: 0 auto;
+    // align-items: center;
     
     @media screen and (min-width: 768px) {
         display: flex;
@@ -34,6 +34,8 @@
 
         @media screen and (max-width: 600px) {
            width: 80%;
+           height: auto;
+           padding-bottom: 50px;
         }
 
 
@@ -77,13 +79,13 @@
         font-size: 2.7rem;
         color: #CCF381;
         font-weight: bold;
-        line-height: 2.3rem;
+        line-height: 3rem;
         
         @media screen and (min-width: 800px) {
             color: #CCF381;
             font-size: 4rem;
             font-weight: 900;
-            line-height: 3.8rem;
+            line-height: 4rem;
         }
 
     }
@@ -115,7 +117,7 @@
 
     
     @media screen and (max-width: 600px) {
-        padding-top: 150px;
+        padding-bottom: 0px;
     }
 
     .joshua__image{
@@ -128,7 +130,7 @@
         @media screen and (max-width: 600px) {
             width: 50%;
             left: 100px;
-            top: 0;
+            // top: 0;
             z-index: 1;
          }
     }
@@ -146,7 +148,8 @@
             left: 115px;
             position: relative;
             height: 200px;
-            bottom: 193px;
+            // bottom: 193px;
+            top: -80px;
          }
     }
 

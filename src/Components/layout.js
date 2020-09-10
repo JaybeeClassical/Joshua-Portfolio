@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from './Header/header.js';
-import Homepage from '../pages/Homepage/homepage'
 import Footer from '../Components/Footer/footer'
 
 
-const layout = () => {
+const layout = (props) => {
     return (
         <div>
             <Header/>
-            <Homepage/>
+            {props.children}
             <Footer/>
         </div>
     )
