@@ -2,7 +2,7 @@
     background-color: rgb(61,21,95);
     height: 100vh;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1024px) {
         height: auto;
     }
 }
@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr 1fr ;
     padding-top: 200px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1024px) {
         padding-top: 100px;
         display: block;
     }
@@ -25,7 +25,7 @@
         font-size: 1.3rem;
         color: #B0A6C9;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 1024px) {
             font-size: 1rem;
         }
     }
@@ -37,7 +37,7 @@
         font-weight: bold;
         list-style: none;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 1024px) {
             font-size: 1rem;
             line-height: 2rem;
         }
@@ -54,7 +54,7 @@
         font-weight: 600;
         list-style: none;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 1024px) {
             font-size: 1rem;
             line-height: 2rem;
         }
@@ -75,7 +75,7 @@
     color: #95A16F;
     font-size: 1.4rem;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1024px) {
         padding-bottom: 60px;
         font-size: 1rem;
     }
@@ -87,7 +87,7 @@
         justify-content: space-around;
         list-style: none;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 1024px) {
             display: none;
         }
     }

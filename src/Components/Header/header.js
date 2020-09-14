@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className={Styles.header__wrapper}>
             <div className={Styles.logo}>
-                Josh
+                {/* Josh */}
             </div>
             <div className={Styles.hemburger}>
                 <div className={Styles.lines}></div>

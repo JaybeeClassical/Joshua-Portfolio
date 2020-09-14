@@ -24,7 +24,9 @@ const Footer = () => {
             <div className={Styles.footer__horizontalLine}/>
 
             <div className={Styles.footer__copyright}>
-                <p> Copyright Joshua Osagie </p>
+                <p>Project by <a href="https://iam-jude.xyz" style={{color: "white"}}>Ike</a> &copy; Joshua Osagie
+                   &nbsp; {new Date().getFullYear().toString()}
+                </p>
                 <ul>
                     <li>Twitter</li>
                     <li>Linkedin</li>
