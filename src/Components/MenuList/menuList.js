@@ -24,7 +24,7 @@ const Ul = styled.ul`
     }
 
     @media (max-width: 768px){
-        width: 480px;
+        width: 100%;
         height: 100vh;
         top: 0;
         right: 0;
