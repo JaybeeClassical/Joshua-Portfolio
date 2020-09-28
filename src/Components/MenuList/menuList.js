@@ -16,6 +16,7 @@ const Ul = styled.ul`
     transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.3s ease-in-out;
     z-index: -44;
+    border-radius: 25px;
 
     li{
         font-size: 25px;
@@ -23,8 +24,10 @@ const Ul = styled.ul`
     }
 
     @media (max-width: 768px){
-        width: 100vw;
+        width: 480px;
         height: 100vh;
+        top: 0;
+        right: 0;
     }
 `;
 

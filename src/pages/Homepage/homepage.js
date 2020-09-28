@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from '../Homepage/homepage.module.scss'
-import HomepageDesign from '../../../assets/homepage-design.png'
+// import HomepageDesign from '../../../assets/homepage-design.png'
 import Joshua from '../../../assets/josh.jpeg'
 import Design from '../../Components/Design/design'
 import Work from '../../Components/Work/work';
@@ -28,7 +28,6 @@ const Homepage = () => {
 
                 <div className={Styles.homepage__right__flexBox}>
                     <img className={Styles.joshua__image} src={Joshua} alt="josh"/>
-                    <div className={Styles.design__borderLine}></div>
 
                     {/* <img className={Styles.joshua__design} src={HomepageDesign} alt="homepage-design"/> */}
                 </div>
