@@ -30,7 +30,7 @@ const Homepage = () => {
                     <img className={Styles.joshua__image} src={Joshua} alt="josh"/>
                     <div className={Styles.design__borderLine}></div>
 
-                    <img className={Styles.joshua__design} src={HomepageDesign} alt="homepage-design"/>
+                    {/* <img className={Styles.joshua__design} src={HomepageDesign} alt="homepage-design"/> */}
                 </div>
             </div>
 
