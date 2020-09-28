@@ -18,7 +18,7 @@
     }
 }
 .homepage__left__flexBox{
-    background-color: rgb(73,50,213);
+    background-color: rgb(47, 42, 83);
     flex-basis: 65.5%;
     height: auto;
     // position: relative;
@@ -77,12 +77,12 @@
 
     .homepage__stackTitle{
         font-size: 2.7rem;
-        color: #CCF381;
+        color: rgb(48, 160, 212);
         font-weight: bold;
         line-height: 3rem;
         
         @media screen and (min-width: 800px) {
-            color: #CCF381;
+            color: rgb(48, 160, 212);
             font-size: 4em;
             font-weight: 900;
             line-height: 4rem;
@@ -95,7 +95,7 @@
         font-size: 1.1rem;
         font-weight: 500;
         margin-top: 20px;
-        line-height: 1.4rem;
+        line-height: 28px;
         
         @media screen and (min-width: 800px) {
             color: #ffffff;
@@ -109,29 +109,30 @@
 
 
 .homepage__right__flexBox{
-    background-color: rgb(204,243,129);
+    background-color: rgb(63, 158, 202);
     flex-basis: 35.5%;
     height: auto;
     position: relative;
     padding: 60px 0px;
 
     
-    @media screen and (max-width: 600px) {
+    @media (max-width: 1086px) {
         padding-bottom: 0px;
+        height: 70vh;
     }
 
     .joshua__image{
         width: 300px;
         position: relative;
         right: 125px;
-        top: 90px;
-        z-index: 1;
+        top: 130px;
+        border-radius: 25px;
 
-        @media screen and (max-width: 600px) {
+        @media (max-width: 1086px) {
             width: 50%;
-            left: 100px;
-            // top: 0;
-            z-index: 1;
+            position: absolute;
+            top: 90px;
+            margin: 0 auto;
          }
     }
     
@@ -140,8 +141,9 @@
         width: 300px;
         height: 290px;
         position: relative;
-        bottom: 190px;
+        bottom: 150px;
         right: 99px;
+        z-index: 1;
 
         @media screen and (max-width: 600px) {
             width: 50%;
