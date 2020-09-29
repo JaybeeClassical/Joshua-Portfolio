@@ -1,5 +1,5 @@
 .work__wrapper{
-    background-color: rgb(72,49,212);
+    background-color: rgb(63, 158, 202);
     height: 100vh;
     padding-top: 70px;
 
@@ -34,9 +34,9 @@
      }
 
     h2{
-        font-size: 3rem;
+        font-size: 35px;
         width: 80%;
-        color: #4831D4;
+        color: rgb(63, 158, 202);
 
         @media screen and (max-width: 1024px) {
            font-size: 1.9rem;
@@ -57,23 +57,22 @@
          }
     }
     .work__btn{
-        border: 2px #4B266A solid;
+        border: 2px rgb(63, 158, 202) solid;
         width: 80%;
         padding: 15px;    
         font-size: 1.2rem;
         font-weight: bold;
-        color: #4831D4;
+        color: rgb(63, 158, 202);
 
         @media screen and (max-width: 1024px) {
            padding: 10px;
            border: 1px #4831D4 solid;
-
          }
     }
 
     .work__btn:hover{
         transition: all 3s ease-out;
-        background-color: #4831D4;
+        background-color: rgb(63, 158, 202);
         color: #ffffff;
     }   
 }
@@ -88,9 +87,9 @@
      }
 
     h2{
-        font-size: 3rem;
+        font-size: 35px;
         width: 80%;
-        color: #4831D4;
+        color: rgb(63, 158, 202);
 
         @media screen and (max-width: 1024px) {
            font-size: 1.9rem;
@@ -111,27 +110,27 @@
          }
     }
     .article__btn{
-        border: 2px #4B266A solid;
+        border: 2px rgb(63, 158, 202) solid;
         width: 80%;
         padding: 15px;    
         font-size: 1.2rem;
         font-weight: bold;
-        color: #4831D4;
+        color: rgb(63, 158, 202);
 
         @media screen and (max-width: 1024px) {
            padding: 10px;
-           border: 1px #4831D4 solid;
+           border: 1px #7368b8 solid;
          }
     }
 
     .article__btn:hover{
         transition: all 3s ease-out;
-        background-color: #4831D4;
+        background-color: rgb(63, 158, 202);
         color: #ffffff;
     }
 }
 
 .work__line{
-    border-left: #C8C1F2 2px solid;
+    border-left: #468fd4 2px solid;
     height: inherit;
 }

@@ -1,5 +1,5 @@
 .footer__wrapper{
-    background-color: rgb(61,21,95);
+    background-color: rgb(47, 42, 83);
     height: 100vh;
 
     @media screen and (max-width: 1024px) {
@@ -23,7 +23,7 @@
 .footer__sayHello{
     h3{
         font-size: 1.3rem;
-        color: #B0A6C9;
+        color: rgb(211, 215, 223);
 
         @media screen and (max-width: 1024px) {
             font-size: 1rem;
@@ -31,7 +31,7 @@
     }
 
     li{
-        color: #95A16F;
+        color: rgb(57, 135, 172);
         font-size: 1.4rem;
         line-height: 3rem;
         font-weight: bold;
@@ -48,15 +48,15 @@
 
 .footer__shortcut{
     li{
-        color: #95A16F;
-        font-size: 1.4rem;
+        color: rgb(28, 105, 141);
+        font-size: 25px;
         line-height: 3.5rem;
         font-weight: 600;
         list-style: none;
 
         @media screen and (max-width: 1024px) {
-            font-size: 1rem;
-            line-height: 2rem;
+            font-size: 20px;
+            line-height: 25px;
         }
     }
 }
@@ -72,12 +72,12 @@
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
-    color: #95A16F;
-    font-size: 1.4rem;
+    color: rgb(48, 160, 212);
+    font-size: 20px;
 
-    @media screen and (max-width: 1024px) {
+    @media (max-width: 1024px) {
         padding-bottom: 60px;
-        font-size: 1rem;
+        font-size: 15px;
     }
 
 
@@ -86,8 +86,9 @@
         display: flex;
         justify-content: space-around;
         list-style: none;
+        // flex-flow: row nowrap;
 
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 768px) {
             display: none;
         }
     }
